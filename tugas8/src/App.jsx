@@ -7,6 +7,8 @@ import Logo from "./components/Header/Logo";
 import Generations from "./components/Header/Generation";
 import Evolution from "./components/CardInfo/Evolution";
 import TypeEffect from "./components/CardInfo/Type-Effect";
+import Footer from "./components/Footer";
+import Logo from "./components/CardInfo/Logo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +23,8 @@ function App() {
       <Generations />
       <Evolution/>
       <Type-Effect/>
+      <Logo/>
+      <Footer/>
     </>
   );
 }
