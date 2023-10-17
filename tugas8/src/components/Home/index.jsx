@@ -1,4 +1,12 @@
-const Home = () => {
-    return <h1>Home</h1>
-};
- export default Home;
+import CardInfo from "./CardInfo";
+import Search from "./Search";
+function Home() {
+
+  return (
+    <>
+      <CardInfo />
+      <Search/>
+    </>
+  );
+}
+export default Home;
