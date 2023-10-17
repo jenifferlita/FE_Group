@@ -5,6 +5,8 @@ import CardInfo from "./components/CardInfo";
 import Header from "./components/Header";
 import Logo from "./components/Header/Logo";
 import Generations from "./components/Header/Generation";
+import Evolution from "./components/CardInfo/Evolution";
+import TypeEffect from "./components/CardInfo/Type-Effect";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +19,8 @@ function App() {
       <Header />
       <Logo />
       <Generations />
+      <Evolution/>
+      <Type-Effect/>
     </>
   );
 }
