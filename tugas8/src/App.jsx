@@ -4,6 +4,7 @@ import Search from "./components/Home/Search";
 import CardInfo from "./components/CardInfo";
 import Header from "./components/Header";
 import Logo from "./components/Header/Logo";
+import Generations from "./components/Header/Generation";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <Search />
       <Header />
       <Logo />
+      <Generations />
     </>
   );
 }
