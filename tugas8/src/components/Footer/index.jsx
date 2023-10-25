@@ -1,4 +1,4 @@
-const Footer = () => {
-    return <h1>Footer</h1>
+const Footer = ({title}) => {
+    return <h1>{title}</h1>
 };
  export default Footer;

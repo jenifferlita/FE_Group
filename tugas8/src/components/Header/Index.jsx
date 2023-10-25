@@ -1,5 +1,5 @@
 import Generations from "./Generation";
-import Logo from "../Logo/Logo";
+import Logo from "./Logo/Index";
 function Header() {
 
   return (

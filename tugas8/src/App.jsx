@@ -4,13 +4,13 @@ import Home from "./components/Home";
 import Header from "./components/Header/Index";
 import Footer from "./components/Footer";
 
-function App() {
+const App=() =>{
 
   return (
     <>
-      <Home />
+      <Home title ="Home"/>
       <Header />
-      <Footer/>
+      <Footer title ="Footer"/>
     </>
   );
 }
