@@ -1,12 +1,12 @@
 import Generations from "./Generation";
 import Logo from "./Logo/Index";
-function Header() {
-
+const Header = ({ title }) => {
   return (
     <>
-      <Generations />
-      <Logo/>
+      {title}
+      <Generations title="Genarations" />
+      <Logo title="Logo" />
     </>
   );
-}
+};
 export default Header;
