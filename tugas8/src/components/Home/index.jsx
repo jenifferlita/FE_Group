@@ -1,11 +1,12 @@
 import CardInfo from "./CardInfo";
 import Search from "./Search";
-function Home() {
 
+const Home=({title}) =>{
   return (
     <>
-      <CardInfo />
-      <Search/>
+      {title}
+      <CardInfo title = "Card Info"/>
+      <Search title = "Search"/>
     </>
   );
 }

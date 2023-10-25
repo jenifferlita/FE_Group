@@ -1,9 +1,10 @@
 import Evolution from "./Evolution";
 import Logo from "./Logo";
-function CardInfo() {
+const CardInfo=({title}) => {
 
   return (
     <>
+      {title}
       <Evolution />
       <Logo/>
     </>
