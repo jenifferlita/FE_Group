@@ -6,7 +6,7 @@ const CardInfo=({title}) => {
     <>
       {title}
       <Evolution />
-      <Logo/>
+      <Logo title = "Logo"/>
     </>
   );
 }
